@@ -1,0 +1,30 @@
+{
+  "Logistic Regression": {
+    "C": 100,
+    "class_weight": "balanced"
+  },
+  "Decision Tree": {
+    "class_weight": "balanced",
+    "max_depth": 10,
+    "min_samples_leaf": 400
+  },
+  "Random Forest": {
+    "class_weight": "balanced_subsample",
+    "max_depth": 12,
+    "min_samples_leaf": 30
+  },
+  "Gradient Boosting": {
+    "l2_regularization": 100.0,
+    "learning_rate": 0.03,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 200
+  },
+  "Neural Network": {
+    "alpha": 1.0,
+    "hidden_layer_sizes": [
+      128,
+      64,
+      32
+    ]
+  }
+}

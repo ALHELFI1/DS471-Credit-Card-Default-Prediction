@@ -1,0 +1,6 @@
+Model,Best hyperparameters,Configs,CV ROC-AUC,CV ROC-AUC (sd),CV PR-AUC,Tuning time (s)
+Logistic Regression,"C=100, class_weight=balanced",14,0.7833372833345156,0.004444376189891141,0.5372748728469906,45.726582527160645
+Decision Tree,"class_weight=balanced, max_depth=10, min_samples_leaf=400",72,0.7777123704635722,0.006725522957489053,0.5332809812461369,40.325642824172974
+Random Forest,"class_weight=balanced_subsample, max_depth=12, min_samples_leaf=30",16,0.7908531967166559,0.004827588976831325,0.5631022598986872,278.4877963066101
+Gradient Boosting,"l2_regularization=100.0, learning_rate=0.03, max_leaf_nodes=31, min_samples_leaf=200",54,0.7908795598275977,0.004111581482722092,0.5617545940571194,123.52620387077332
+Neural Network,"alpha=1.0, hidden_layer_sizes=(128, 64, 32)",35,0.78443024679993,0.00633280441526126,0.5468582080793724,208.9275586605072

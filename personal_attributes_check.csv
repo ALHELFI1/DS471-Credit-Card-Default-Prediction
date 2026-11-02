@@ -1,0 +1,5 @@
+model,features,CV ROC-AUC,CV PR-AUC
+Logistic Regression,all 32 features,0.7807919822792696,0.5362629442977689
+Logistic Regression,"without sex, age, marital status",0.7794020052752956,0.5354697222757017
+Gradient Boosting,all 32 features,0.7863980180770704,0.5580343647681413
+Gradient Boosting,"without sex, age, marital status",0.7861922270515175,0.5605968178580172

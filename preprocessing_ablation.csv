@@ -1,0 +1,22 @@
+features,model,scaling,CV ROC-AUC,CV PR-AUC
+original (23),Logistic Regression,standard,0.7274425167026981,0.5043544670260116
+original (23),Logistic Regression,yeo-johnson,0.7490249966306199,0.49964620138056615
+original (23),Logistic Regression,signed-log,0.7499677357647142,0.5045547994604569
+original (23),Neural Network,standard,0.7752575646617721,0.5446753150805561
+original (23),Neural Network,yeo-johnson,0.7760453076144925,0.5370132279008054
+original (23),Neural Network,signed-log,0.7749538722853876,0.5418579905509443
+original (23),Gradient Boosting,none (trees),0.7805456290156855,0.5554553721111717
++ engineered (29),Logistic Regression,standard,0.7655310577528661,0.513597882447591
++ engineered (29),Logistic Regression,yeo-johnson,0.7640585957128894,0.49981636792367273
++ engineered (29),Logistic Regression,signed-log,0.7634592814345289,0.5120441181167328
++ engineered (29),Neural Network,standard,0.7784059097761702,0.5481966854175163
++ engineered (29),Neural Network,yeo-johnson,0.7803122629593162,0.5388506038466783
++ engineered (29),Neural Network,signed-log,0.7821670914528285,0.5483236309093836
++ engineered (29),Gradient Boosting,none (trees),0.7865700122775989,0.5582115296745199
++ engineered + PAY_1 status (32),Logistic Regression,standard,0.7732894053677549,0.532951701476795
++ engineered + PAY_1 status (32),Logistic Regression,yeo-johnson,0.7807919822792696,0.5362629442977689
++ engineered + PAY_1 status (32),Logistic Regression,signed-log,0.7749899326881952,0.5322640094047302
++ engineered + PAY_1 status (32),Neural Network,standard,0.7784489911315495,0.5484633450678278
++ engineered + PAY_1 status (32),Neural Network,yeo-johnson,0.7819687881359316,0.5436107290937413
++ engineered + PAY_1 status (32),Neural Network,signed-log,0.7829418626405124,0.5479271996562056
++ engineered + PAY_1 status (32),Gradient Boosting,none (trees),0.7863980180770704,0.5580343647681413
