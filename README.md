@@ -12,6 +12,7 @@ Predicting which credit-card clients will **default on their next payment**, com
 | Abdullah Mutlaq Albugami | S220014331 |
 | Khalid Alhamalawi | S220016917 |
 | Khalid Alqarni | S220022107 |
+| Mashaal M Alghamdi | S220012786 |
 
 ## Results
 
